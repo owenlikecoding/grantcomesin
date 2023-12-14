@@ -34,10 +34,25 @@
       canvas {
         display: block;
       }
+      #hall {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        background-color: rgb(43, 43, 43);
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
     <div class="countdown"></div>
+    <a href="./hof.html"><button id="hall">Hall of autism</button></a>
     <script src="https://threejs.org/build/three.js"></script>
     <script>
       var scene = new THREE.Scene();
@@ -122,4 +137,3 @@
     </script>
   </body>
 </html>
-
